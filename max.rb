@@ -1,6 +1,17 @@
 # Find the maximum 
 def maximum(arr)
-  arr.max
+	iMax = 0
+	iCurrent = 0
+
+	arr.each do |i|
+		if (i > iCurrent)
+			iCurrent = i
+			iMax = i
+		end
+	end
+
+	return iMax
+
 end
 
 # expect it to return 42 below
