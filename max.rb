@@ -1,4 +1,5 @@
 # Find the maximum 
+# Updated
 def maximum(arr)
 	iMax = 0
 	iCurrent = 0
